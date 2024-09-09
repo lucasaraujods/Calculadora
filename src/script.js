@@ -2,7 +2,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 //ESCREVA SEU CÓDIGO AQUI!!
-function calculadora(numero1,numero2,operador)
+function Calculadora(numero1,numero2,operador)
 {
     let resultado
     let num1= parseInt(numero1)
