@@ -11,19 +11,24 @@ function calculadora(numero1,numero2,operador)
     switch(operador)
     {
         case "+":
-            resultado = ('A soma dos dois números é igual a ' + (num1+num2))
+            resultado = num1+num2
             break;
         case "-":
-            resultado = ('A subtração dos dois números é igual a ' + (num1 - num2))
+            resultado = num1 - num2
             break;
         case "*":
-            resultado = ('A multiplicação dos dois números é igual a ' + (num1 * num2))
+            resultado = num1 * num2
             break;
         case "/":
-            resultado = ('A divisão dos dois números é igual a ' + (num1 / num2))
+            resultado = num1 / num2
             break;
         case "e":
-            resultado = (' A exponenciação dos números é igual a ' + (num1 ** num2))
+            let contador = 1
+            resultado = num1 * num1
+            while(contador < num2-1){
+                resultado = resultado * num1
+                contador++
+            }
             break;
     }
 
@@ -34,7 +39,6 @@ function calculadora(numero1,numero2,operador)
 
     return resultado 
 }
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
