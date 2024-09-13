@@ -13,7 +13,7 @@ Este projeto é uma **calculadora** simples e funcional, desenvolvida em **JavaS
 
 - **HTML5**
 - **CSS3**
-- **JavaScript ES6**
+- **JavaScript**
 
 ## 🔧 Requisitos
 
