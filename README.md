@@ -14,7 +14,3 @@ Este projeto é uma **calculadora** simples e funcional, desenvolvida em **JavaS
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-
-## 🔧 Requisitos
-
-Nenhum requisito adicional! Basta ter um navegador de internet instalado para abrir o projeto.
